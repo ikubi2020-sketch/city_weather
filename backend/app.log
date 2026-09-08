@@ -1,1 +1,23 @@
 2026-09-08 15:32:55,828 | INFO | active func | get_city |
+2026-09-08 16:19:23,983 | INFO | active func | get_city |
+2026-09-08 16:19:25,123 | ERROR | reach error 'dict' object has no attribute 'text'
+2026-09-08 16:37:00,222 | INFO | active func | get_city |
+2026-09-08 16:37:01,479 | ERROR | reach error 'dict' object has no attribute 'text'
+2026-09-08 16:38:04,716 | INFO | active func | get_city |
+2026-09-08 16:57:14,564 | INFO | active func | get_city |
+2026-09-08 17:12:45,471 | INFO | active func | get_city |
+2026-09-08 17:12:52,290 | INFO | active func | get_city |
+2026-09-08 17:13:05,046 | INFO | active func | get_city |
+2026-09-08 17:13:06,205 | ERROR | reach error 'results'
+2026-09-08 17:13:30,877 | INFO | active func | get_city |
+2026-09-08 17:13:32,065 | ERROR | reach error 'results'
+2026-09-08 17:13:40,098 | INFO | active func | get_city |
+2026-09-08 17:13:41,276 | ERROR | reach error 'results'
+2026-09-08 17:14:12,880 | INFO | active func | get_city |
+2026-09-08 17:14:14,020 | ERROR | reach error 'results'
+2026-09-08 17:17:48,740 | INFO | active func | get_city |
+2026-09-08 17:17:50,115 | ERROR | reach error 'results'
+2026-09-08 17:22:12,908 | INFO | active func | get_city |
+2026-09-08 17:22:14,167 | ERROR | reach error 'results'
+2026-09-08 17:28:38,534 | INFO | active func | get_city |
+2026-09-08 17:28:47,201 | INFO | active func | get_city |
