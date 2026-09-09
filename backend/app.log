@@ -21,3 +21,9 @@
 2026-09-08 17:22:14,167 | ERROR | reach error 'results'
 2026-09-08 17:28:38,534 | INFO | active func | get_city |
 2026-09-08 17:28:47,201 | INFO | active func | get_city |
+2026-09-09 15:58:11,973 | ERROR | reach error HTTPSConnectionPool(host='my-server.tld', port=443): Max retries exceeded with url: /v1/forecast?latitude=42&longitude=42 (Caused by NameResolutionError("HTTPSConnection(host='my-server.tld', port=443): Failed to resolve 'my-server.tld' ([Errno 11001] getaddrinfo failed)"))
+2026-09-09 16:12:06,965 | ERROR | reach error HTTPSConnectionPool(host='my-server.tld', port=443): Max retries exceeded with url: /v1/forecast?latitude=23&longitude=31 (Caused by NameResolutionError("HTTPSConnection(host='my-server.tld', port=443): Failed to resolve 'my-server.tld' ([Errno 11001] getaddrinfo failed)"))
+2026-09-09 16:55:18,957 | INFO | active func | get_whether_by_id_utils |
+2026-09-09 16:59:06,996 | INFO | active func | get_whether_by_id_utils |
+2026-09-09 16:59:50,556 | INFO | active func | get_whether_by_id_utils |
+2026-09-09 17:02:15,087 | INFO | active func | get_whether_by_id_utils |

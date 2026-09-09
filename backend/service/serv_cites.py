@@ -5,6 +5,6 @@ from schemas.schem_req import City
 
 def get_city_serv(city_name) -> dict:
     logger.info("active func | get_city |")
-    list_of_city = get_city_utils(city_name)
+    list_of_city = get_city_utils(city_name, 10)
     return list_of_city
     

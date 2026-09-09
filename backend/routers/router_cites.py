@@ -3,7 +3,7 @@ import requests
 from service.serv_cites import get_city_serv
 
 
-router = APIRouter(prefix="/weather/cites", tags=["weather"])
+router = APIRouter(prefix="/weather/cites", tags=["city"])
 
 
 @router.get("/")
