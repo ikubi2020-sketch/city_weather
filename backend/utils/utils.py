@@ -19,7 +19,8 @@ def get_city_utils(city_name, count):
     except Exception as e:
         logger.error(f"reach error {e}")
 
-def get_whether_by_qour_utils(lon , lat):
+
+def get_whether_by_qour_utils(lat, lon):
     logger.info("active func | get_whether_by_id_utils |")
     days_final = {}
     try:

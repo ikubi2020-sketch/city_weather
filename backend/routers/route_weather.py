@@ -15,7 +15,7 @@ def health_check():
 
 
 @router.get("/get_weather")
-def get_weather_by_quor(lan , lat ):
-    city = get_whether_by_quor(lan, lat)
+def get_weather_by_quor(lat, lon):
+    city = get_whether_by_quor(lat, lon)
     return {"status" :200 , "result": city}
 
