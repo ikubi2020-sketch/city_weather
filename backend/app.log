@@ -42,3 +42,7 @@
 2026-09-10 09:40:50,602 | INFO | active func | get_whether_by_id_utils |
 2026-09-10 09:40:51,824 | ERROR | reach error string indices must be integers, not 'str'
 2026-09-10 09:48:26,108 | INFO | active func | get_whether_by_id_utils |
+2026-09-10 12:37:19,216 | INFO | active func | get_city |
+2026-09-10 12:37:19,218 | INFO | active func | get_city_utils |
+2026-09-10 12:39:39,239 | INFO | active func | get_city |
+2026-09-10 12:39:39,240 | INFO | active func | get_city_utils |
