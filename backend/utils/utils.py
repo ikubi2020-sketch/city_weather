@@ -20,14 +20,14 @@ def get_city_utils(city_name, count):
         logger.error(f"reach error {e}")
 
 
-def get_whether_by_qour_utils(lat, lon):
+def get_whether_by_qour_utils(lat, lon , days = 7):
     logger.info("active func | get_whether_by_id_utils |")
     days_final = {}
     try:
         respond = requests.get("https://api.open-meteo.com/v1/forecast", params={"latitude" : lat, "longitude" : lon , "current": "temperature_2m,relative_humidity_2m,apparent_temperature,weather_code",
         "daily" : "temperature_2m_max,temperature_2m_min,apparent_temperature_max,apparent_temperature_min,weather_code",
         "timezone" : "auto",       
-        "forecast_days" : 7})    
+        "forecast_days" : days})    
         respond = respond.json()
         respond = respond["daily"]
         for index, day in enumerate(respond["time"]):

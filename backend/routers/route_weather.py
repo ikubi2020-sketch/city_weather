@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from service.weather import get_whether_by_quor
+from service.weather import get_whether_by_quor, get_weather_compare_serv
 
 
 router = APIRouter(prefix="/weather", tags=["weather"])
@@ -18,4 +18,10 @@ def health_check():
 def get_weather_by_quor(lat, lon):
     city = get_whether_by_quor(lat, lon)
     return {"status" :200 , "result": city}
+
+
+@router.get("/get_weather/compare")
+def get_weather_compare(cities):
+    cites = get_weather_compare_serv(cities)
+    return {"status" :200 , "result": cites}
 
