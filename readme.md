@@ -1,12 +1,25 @@
 
+.....still missing endpoints
 
-to run the program run the following commends in this specific order 
+
+to instal the program run the following commends in this specific order 
 
 git clone https://github.com/ikubi2020-sketch/city_weather.git
-              
+
+backend setup : go to backend dir and run the following
+
+python -m venv .venv
+.venv\Scripts\activate
 pip install -r  Requirements.txt
 
-npm i 
+to run program backend use => uvicorn main:app --reload 
+
+frontend setup : go to frontend dir and run the following
+
+npm i
+
+to run program frontend use => npm run dev
+
 
 
 THE PREPUCE OF THE PROGRAM IS AS FOLLOW :
