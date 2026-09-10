@@ -27,3 +27,18 @@
 2026-09-09 16:59:06,996 | INFO | active func | get_whether_by_id_utils |
 2026-09-09 16:59:50,556 | INFO | active func | get_whether_by_id_utils |
 2026-09-09 17:02:15,087 | INFO | active func | get_whether_by_id_utils |
+2026-09-09 17:13:29,502 | INFO | active func | get_city |
+2026-09-09 17:13:29,503 | INFO | active func | get_city_utils |
+2026-09-09 17:14:42,212 | INFO | active func | get_city |
+2026-09-09 17:14:42,213 | INFO | active func | get_city_utils |
+2026-09-09 17:15:42,713 | INFO | active func | get_city |
+2026-09-09 17:15:42,714 | INFO | active func | get_city_utils |
+2026-09-09 17:38:29,271 | INFO | active func | get_whether_by_id_utils |
+2026-09-09 17:38:31,342 | ERROR | reach error 'dict' object has no attribute 'current'
+2026-09-09 17:39:29,696 | INFO | active func | get_whether_by_id_utils |
+2026-09-09 17:41:38,805 | INFO | active func | get_whether_by_id_utils |
+2026-09-09 17:44:31,827 | INFO | active func | get_whether_by_id_utils |
+2026-09-10 08:59:54,334 | INFO | active func | get_whether_by_id_utils |
+2026-09-10 09:40:50,602 | INFO | active func | get_whether_by_id_utils |
+2026-09-10 09:40:51,824 | ERROR | reach error string indices must be integers, not 'str'
+2026-09-10 09:48:26,108 | INFO | active func | get_whether_by_id_utils |

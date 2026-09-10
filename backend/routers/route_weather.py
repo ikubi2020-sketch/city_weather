@@ -14,11 +14,8 @@ def health_check():
 
 
 
-@router.get("/by_quorditets")
-def get_city_by_quor(lan , lat ):
+@router.get("/get_weather")
+def get_weather_by_quor(lan , lat ):
     city = get_whether_by_quor(lan, lat)
     return {"status" :200 , "result": city}
-
-
-
 

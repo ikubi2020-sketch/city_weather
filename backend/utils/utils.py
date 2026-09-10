@@ -12,6 +12,7 @@ def get_city_utils(city_name, count):
         if "results" not in respond: 
             raise HTTPException (status_code=404, detail="no city was found")  
         cites_list = respond["results"]
+        print(cites_list[0])
         for city in cites_list:
             cites_requested.append(City(**city))
         return cites_requested
@@ -20,11 +21,21 @@ def get_city_utils(city_name, count):
 
 def get_whether_by_qour_utils(lon , lat):
     logger.info("active func | get_whether_by_id_utils |")
+    days_final = {}
     try:
-        respond = requests.get("https://api.open-meteo.com/v1/forecast", params={"latitude" : lat, "longitude" : lon , "current": "temperature_2m,relative_humidity_2m,apparent_temperature,weather_code"})    
+        respond = requests.get("https://api.open-meteo.com/v1/forecast", params={"latitude" : lat, "longitude" : lon , "current": "temperature_2m,relative_humidity_2m,apparent_temperature,weather_code",
+        "daily" : "temperature_2m_max,temperature_2m_min,apparent_temperature_max,apparent_temperature_min,weather_code",
+        "timezone" : "auto",       
+        "forecast_days" : 7})    
         respond = respond.json()
-        respond = respond.current
-        return respond
+        respond = respond["daily"]
+        for index, day in enumerate(respond["time"]):
+             days_final[day] = {
+                  "temperature_max": respond["temperature_2m_max"][index],
+                "temperature_min": respond["temperature_2m_min"][index],
+                "apparent_temperature_max": respond["apparent_temperature_max"][index],
+                "apparent_temperature_min": respond["apparent_temperature_min"][index],
+                "weather_code": respond["weather_code"][index],}
+        return days_final
     except Exception as e:
             logger.error(f"reach error {e}")
-    
