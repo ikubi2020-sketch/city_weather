@@ -1,14 +1,15 @@
 import './App.css'
 import {Routes ,Route} from "react-router" 
-
+import { ProtectedRoute } from './componnents/protectedRoute/protectedRoute'
+import Enter from './componnents/enter/Enter'
 
 function App() {
 
   return (
     <>
       <Routes>
-        
-        <Route />
+
+        <Route path="/enter" />
         <Route />
         <Route />
 
