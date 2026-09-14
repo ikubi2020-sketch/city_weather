@@ -1,0 +1,6 @@
+.layOutMain{
+    display: grid;
+    min-height: 100vh;
+    min-width: 100%;
+    grid-template-rows:  auto 1fr auto;
+}
