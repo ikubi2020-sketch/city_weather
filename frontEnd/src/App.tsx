@@ -7,13 +7,15 @@ import Favorites from './componnents/favorites/Favorites'
 import Compare from './componnents/compare/compare'
 import LayOut from './componnents/layout/layOut'
 import Search from './componnents/search/Search'
-
+import {Navigate} from "react-router"
 
 function App() {
 
   return (
     <>
       <Routes>
+
+        <Route path="/" element={<Navigate to="/enter" replace />} />
         
           <Route path="/enter" element={<Enter/>}/>
 

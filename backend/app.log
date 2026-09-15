@@ -46,3 +46,13 @@
 2026-09-10 12:37:19,218 | INFO | active func | get_city_utils |
 2026-09-10 12:39:39,239 | INFO | active func | get_city |
 2026-09-10 12:39:39,240 | INFO | active func | get_city_utils |
+2026-09-14 12:35:23,943 | INFO | active func | get_whether_by_quor |
+2026-09-14 12:35:23,944 | INFO | active func | get_whether_by_id_utils |
+2026-09-14 12:43:27,851 | INFO | active func | get_weather_compare_serv |
+2026-09-14 14:21:14,733 | INFO | active func | get_weather_compare_serv |
+2026-09-14 14:56:14,941 | INFO | active func | get_weather_compare_serv |
+2026-09-14 14:57:33,452 | INFO | active func | get_weather_compare_serv |
+2026-09-14 14:59:35,293 | INFO | active func | get_weather_compare_serv |
+2026-09-14 15:00:28,386 | INFO | active func | get_weather_compare_serv |
+2026-09-14 15:00:28,388 | INFO | active func | get_whether_by_id_utils |
+2026-09-14 15:00:30,161 | INFO | active func | get_whether_by_id_utils |
